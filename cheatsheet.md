@@ -21,6 +21,7 @@ LIMIT <number>
 `--` for single line comments
 
 `/* blah
+
 blah */` for multiline comments
 
 ## Creating, using, altering, deleting
