@@ -20,9 +20,11 @@ LIMIT <number>
 
 `--` for single line comments
 
-`/* blah
-
-blah */` for multiline comments
+```sql
+/* blah
+stuff
+blah */
+```
 
 ## Creating, using, altering, deleting
 
