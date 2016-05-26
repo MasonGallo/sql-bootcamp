@@ -56,6 +56,59 @@ FROM Customers
 WHERE Address LIKE "P.O. Box%"
 ```
 
+# Aggregation
+
+- How many orders were there in July 1996?
+
+```sql
+SELECT Count(*)
+FROM Orders
+WHERE OrderDate LIKE "1996-07%"
+```
+
+- How many countries did we sell to?
+
+```sql
+SELECT Count(DISTINCT Country)
+FROM Customers
+```
+
+- Print the minimum, average and maximum price of our assortment
+
+```sql
+SELECT
+    Round(Min(Price), 2) AS "minimum",
+    Avg(Price) AS "average",
+    Max(Price) AS "max"
+FROM Products
+```
+
+- How many customers do we have per country?
+
+```sql
+SELECT Country, Count(*)
+FROM Customers
+GROUP BY Country
+```
+
+- Create a table with columns 'Country' and 'Number of customers', sorted from most to least number of customers.
+
+```sql
+SELECT Country, Count(*) AS "Number of customers"
+FROM Customers
+GROUP BY Country
+ORDER BY "Number of customers" DESC
+```
+
+- Give employee IDs for those who sold at least 20 orders.
+
+```sql
+SELECT EmployeeID, COUNT(OrderID) AS NumberOfOrders
+FROM Orders
+GROUP BY EmployeeID
+HAVING NumberOfOrders >= 20
+```
+
 
 # `JOIN`
 
@@ -130,59 +183,6 @@ JOIN Products
 ON OrderDetails.ProductID = Products.ProductID
 GROUP BY LastName, FirstName
 ORDER BY 3 DESC
-```
-
-# Aggregation
-
-- How many orders were there in July 1996?
-
-```sql
-SELECT Count(*)
-FROM Orders
-WHERE OrderDate LIKE "1996-07%"
-```
-
-- How many countries did we sell to?
-
-```sql
-SELECT Count(DISTINCT Country)
-FROM Customers
-```
-
-- Print the minimum, average and maximum price of our assortment
-
-```sql
-SELECT
-    Round(Min(Price), 2) AS "minimum",
-    Avg(Price) AS "average",
-    Max(Price) AS "max"
-FROM Products
-```
-
-- How many customers do we have per country?
-
-```sql
-SELECT Country, Count(*)
-FROM Customers
-GROUP BY Country
-```
-
-- Create a table with columns 'Country' and 'Number of customers', sorted from most to least number of customers.
-
-```sql
-SELECT Country, Count(*) AS "Number of customers"
-FROM Customers
-GROUP BY Country
-ORDER BY "Number of customers" DESC
-```
-
-- Give employee IDs for those who sold at least 20 orders.
-
-```sql
-SELECT EmployeeID, COUNT(OrderID) AS NumberOfOrders
-FROM Orders
-GROUP BY EmployeeID
-HAVING NumberOfOrders >= 20
 ```
 
 # Creating, Updating, Deleting

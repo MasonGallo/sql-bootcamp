@@ -30,8 +30,8 @@ work but may have slight differences. Access is strongly discouraged.
 - Install SQL locally for testing
 - Understand the usecases for SQL
 - Basic queries
-- Joining tables
 - Aggregation
+- Joining tables
 - Importing data
 - Real world use
 

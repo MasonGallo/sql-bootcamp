@@ -12,6 +12,14 @@ Open [W3 School's SQL Exercies](http://www.w3schools.com/sql/trysql.asp?filename
 - Print a list of the 20 cheapest products
 - Which customers have a postal box as address?
 
+# Aggregation
+
+- How many orders were there in July 1996?
+- How many countries did we sell to?
+- Print the minimum, average and maximum price of our assortment
+- How many customers do we have per country?
+- Create a table with columns 'Country' and 'Number of customers', sorted from most to least number of customers.
+- Give employee IDs for those who sold at least 20 orders.
 
 # `JOIN`
 
@@ -21,15 +29,6 @@ Open [W3 School's SQL Exercies](http://www.w3schools.com/sql/trysql.asp?filename
 - What employee made the most sales (by number of orders)?
 - What employee made the most sales (by number of products)?
 - What employee made the most sales (by value of sales)?
-
-# Aggregation
-
-- How many orders were there in July 1996?
-- How many countries did we sell to?
-- Print the minimum, average and maximum price of our assortment
-- How many customers do we have per country?
-- Create a table with columns 'Country' and 'Number of customers', sorted from most to least number of customers.
-- Give employee IDs for those who sold at least 20 orders.
 
 # Creating, Updating, Deleting
 
