@@ -43,6 +43,12 @@ Keep it open while you're first learning to reference syntax!
 
 Answers are available [here](answers.md)
 
+# Keep in touch!
+
+- I will be posting tutorials, walkthroughs, and thoughts on [twitter](https://twitter.com/ohheyitsmason)
+- Happy to network on [linkedin](https://www.linkedin.com/in/masongallo). My former students have gotten great jobs!
+- Follow me on [github](https://github.com/MasonGallo) if you want to collaborate on open-source!
+
 # Further practice
 
 - [SQLZoo](http://sqlzoo.net/)
