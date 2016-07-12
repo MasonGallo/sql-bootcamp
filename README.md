@@ -9,31 +9,21 @@ HARD, but we will walk through it together.
 
 You are expected (and will learn better) to run and write queries on your own.
 
-**This means you will need to install the following prior to class:**
+**This means you will need to install some software in class:**
 
-- MySQL Server, serving as the "backend" for our SQL work
-- A MySQL client, which will serve as the "frontend" for using with the server
+- Wagon, a SQL editor
+- We will discuss other software depending on your individual learning plan
 
-**For installation instructions, follow the below for your OS:**
+**For installation instructions, follow the below for Windows and macOS:**
 
-- [Mac OSX](/osx_installation.md)
-- [Windows](/windows_installation.md)
-- If you're using Linux as your main OS, chat with me if you need help :)
+- Go to the [Wagon](http://www.wagonhq.com/signup) page and sign up with your name and email
+- You should get an email shortly from Team Wagon
+- Click the create an account link in the email
+- Create an account and put whatever you want for the team name...write these down because you will need them later
+- You should get a link to download Wagon on either Mac or Windows
+- If you're using Linux as your main OS, please chat with me :)
 
-Note: All in-class examples will assume you followed the installation 
-instructions to use MySQL. Unless you have a compelling reason, you should just
-follow the instructions above. Other SQL dialects (SQLite, SQL Server) will 
-work but may have slight differences. Access is strongly discouraged.
-
-# Agenda
-
-- Install SQL locally for testing
-- Understand the usecases for SQL
-- Basic queries
-- Aggregation
-- Joining tables
-- Importing data
-- Real world use
+Note: installing the recommended software will ensure a much better experience this bootcamp. If you're not comfortable providing your email, please speak with me and we'll work something out!
 
 # [Cheatsheet](/cheatsheet.md)
 
