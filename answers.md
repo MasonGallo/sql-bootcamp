@@ -36,7 +36,7 @@ WHERE Notes LIKE "% BA %"
 SELECT *
 FROM Products
 WHERE Price >= 25
-    AND Price =< 30
+    AND Price <= 30
 ```
 
 - Print a list of the 20 cheapest products
